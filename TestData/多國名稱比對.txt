@@ -1,0 +1,28 @@
+English                → Resources.en.resx
+French                 → Resources.fr.resx
+German                 → Resources.de.resx
+Italian                → Resources.it.resx
+Spanish                → Resources.es.resx
+Portuguese             → Resources.pt.resx
+Russian                → Resources.ru.resx
+Turkish                → Resources.tr.resx
+
+Traditional Chinese    → Resources.zh-TW.resx
+Simplified Chinese     → Resources.zh-CN.resx
+
+Japanese               → Resources.ja.resx
+Korean                 → Resources.ko.resx
+
+Czech                  → Resources.cs.resx
+Dutch                  → Resources.nl.resx
+Finnish                → Resources.fi.resx
+Norwegian              → Resources.no.resx
+Swedish                → Resources.sv.resx
+
+Ukrainian              → Resources.uk.resx
+Danish                 → Resources.da.resx
+Thai                   → Resources.th.resx
+Polish                 → Resources.pl.resx
+Romanian               → Resources.ro.resx
+Indonesia              → Resources.id.resx
+Slovakian              → Resources.sk.resx

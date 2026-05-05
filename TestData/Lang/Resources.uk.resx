@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnCancel" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="BtnFailFinish" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnFinish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="BtnNext" xml:space="preserve">
+    <value>Далі</value>
+  </data>
+  <data name="BtnOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="TbGearLinkTitle" xml:space="preserve">
+    <value>Помічник {0} для {1}</value>
+  </data>
+  <data name="TbInstall" xml:space="preserve">
+    <value>Натисніть Next (Далі), щоб установити Помічника {0} для {1} та отримати доступ до додаткових функцій.</value>
+  </data>
+  <data name="TbInstallFail" xml:space="preserve">
+    <value>Не вдалося завершити встановлення. Натисніть Finish (Завершити), щоб закрити інсталятор.</value>
+  </data>
+  <data name="TbInstallFailTitle" xml:space="preserve">
+    <value>Помилка встановлення</value>
+  </data>
+  <data name="TbInstalling" xml:space="preserve">
+    <value>Триває встановлення</value>
+  </data>
+  <data name="TbInstallingTitle" xml:space="preserve">
+    <value>Триває встановлення {0}</value>
+  </data>
+  <data name="TbInstallSuccess" xml:space="preserve">
+    <value>Натисніть Finish (Завершити), щоб завершити встановлення й закрити інсталятор.</value>
+  </data>
+  <data name="TbInstallSuccessTitle" xml:space="preserve">
+    <value>Успішно встановлено</value>
+  </data>
+  <data name="TbInstallTitle" xml:space="preserve">
+    <value>Установити Помічника {0}</value>
+  </data>
+  <data name="TbUninstall" xml:space="preserve">
+    <value>Справді видалити {0}?
+Ця дія призведе до вилучення й вимкнення всіх пов’язаних функцій, для яких потрібен цей процес. 
+Натисніть Next (Далі), щоб продовжити.</value>
+  </data>
+  <data name="TbUninstallFail" xml:space="preserve">
+    <value>The uninstallation could not be completed. Click Finish to close the installer.</value>
+  </data>
+  <data name="TbUninstallFailTitle" xml:space="preserve">
+    <value> unInstallation Failed</value>
+  </data>
+  <data name="TbUninstalling" xml:space="preserve">
+    <value>Uninstalling…</value>
+  </data>
+  <data name="TbUninstallingTitle" xml:space="preserve">
+    <value>Uninstalling {0}</value>
+  </data>
+  <data name="TbUninstallSuccess" xml:space="preserve">
+    <value>Click Finish to complete the uninstallation and close the installer.</value>
+  </data>
+  <data name="TbUninstallSuccessTitle" xml:space="preserve">
+    <value>Uninstallation Successful</value>
+  </data>
+  <data name="TbUninstallTitle" xml:space="preserve">
+    <value>Uninstall {0} Companion</value>
+  </data>
+  <data name="TbUpdate" xml:space="preserve">
+    <value>Справді оновити {0}? Натисніть Next (Далі), щоб продовжити.</value>
+  </data>
+  <data name="TbUpdateFail" xml:space="preserve">
+    <value>Не вдалося завершити оновлення. Натисніть Finish (Завершити), щоб закрити інсталятор.</value>
+  </data>
+  <data name="TbUpdateFailTitle" xml:space="preserve">
+    <value>Помилка оновлення</value>
+  </data>
+  <data name="TbUpdateSuccess" xml:space="preserve">
+    <value>Натисніть Finish (Завершити), щоб завершити оновлення й закрити інсталятор.</value>
+  </data>
+  <data name="TbUpdateSuccessTitle" xml:space="preserve">
+    <value>Успішно оновлено</value>
+  </data>
+  <data name="TbUpdateTitle" xml:space="preserve">
+    <value>Оновити {0}</value>
+  </data>
+  <data name="TbUpdating" xml:space="preserve">
+    <value>Триває оновлення…</value>
+  </data>
+  <data name="TbUpdatingTitle" xml:space="preserve">
+    <value>Триває оновлення {0}</value>
+  </data>
+  <data name="TbUpToDate" xml:space="preserve">
+    <value>Ваш компаньйон {0} для пристрою «{1}» вже оновлено. Натисніть «OK», щоб вийти.</value>
+  </data>
+  <data name="TbUpToDateTitle" xml:space="preserve">
+    <value>Up to Date</value>
+  </data>
+</root>

@@ -22,6 +22,8 @@ namespace NetTransTool
         public MainWindow()
         {
             InitializeComponent();
+            int a=10;
+            a++;
         }
 
         private async void BtnLoad_Click(object sender, RoutedEventArgs e)
